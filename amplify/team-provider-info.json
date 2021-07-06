@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-netflixmobile-dev-153005-authRole",
+      "UnauthRoleArn": "arn:aws:iam::870462205808:role/amplify-netflixmobile-dev-153005-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::870462205808:role/amplify-netflixmobile-dev-153005-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-netflixmobile-dev-153005-deployment",
+      "UnauthRoleName": "amplify-netflixmobile-dev-153005-unauthRole",
+      "StackName": "amplify-netflixmobile-dev-153005",
+      "StackId": "arn:aws:cloudformation:us-east-1:870462205808:stack/amplify-netflixmobile-dev-153005/2c74ed20-da3e-11eb-ba50-12eab3c0ef67",
+      "AmplifyAppId": "d2ak1v04g8ciyk"
+    },
+    "categories": {
+      "auth": {
+        "netflixmobile3d87ce15": {}
+      }
+    }
+  }
+}

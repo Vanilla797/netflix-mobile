@@ -17,12 +17,15 @@ const HomeCategory = (props: HomeCategoryProps) => {
 
     const [movies, setMovies] = useState<Movie[]>([]);
     
+    
+    
 
     useEffect(() => {
         const fetchMovies = async () => {
             const result = (await DataStore.query(Movie))
                                 .filter((movie) => movie.categoryID === category.id)
             setMovies(result);
+            console.log(result);
         };
 
         fetchMovies();

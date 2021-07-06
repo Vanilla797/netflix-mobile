@@ -94,7 +94,7 @@ const MoviewDetailsScreen = () => {
                             <MaterialIcons name="hd" size={24} color="white" />
                         </View>
 
-                        {/* Play Button */}
+                        
                         <Pressable onPress={() => { console.warn('Plage')}} style={styles.playButton}>
                             <Text style={styles.playButtonText}>
                                 <Entypo name="controller-play" size={16} color="black" />
@@ -132,9 +132,7 @@ const MoviewDetailsScreen = () => {
                                 <Text style={{color: 'darkgrey', marginTop: 5 }}>Share</Text>
                             </View>
                         </View>
-                        <View style={{ backgroundColor: 'white'}}>
-                     
-                        </View>
+                       
                         
 
                         {currentSeason && (

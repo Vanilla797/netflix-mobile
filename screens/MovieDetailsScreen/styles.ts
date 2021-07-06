@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
         borderRadius: 2,
         paddingHorizontal: 3,
         marginRight: 5,
+        
     },
     age: {
         color: 'black',
